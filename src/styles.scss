@@ -2,8 +2,16 @@
 @import "reset";
 @import "theme";
 
+@font-face {
+  font-family: 'Karla';
+  src: url('assets/static/Karla-Bold.ttf');
+}
+@font-face {
+  font-family: 'sansserif';
+  src: url('assets/fonts/sansserif/');
+}
 h1 {
-  font-size: 72px;
+  font-size: 72px; font-family:'@import font-face';
 }
 
 h2 {
