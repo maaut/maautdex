@@ -2,6 +2,19 @@
 @import "reset";
 @import "theme";
 
+@font-face {
+  font-family: 'Karla';
+  src: url('assets/fonts/Karla/Karla-Regular.ttf');
+  
+}
+@font-face {
+  font-family: 'Karla-bold';
+  src: url('assets/fonts/Karla/Karla-Bold.ttf');
+}
+@font-face {
+  font-family:'SourceSansPro';
+  src: url('assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf');
+}
 h1 {
   font-size: 72px;
 }
