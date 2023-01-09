@@ -1,7 +1,9 @@
 @import "../../theme";
 .container-home {
-    width: 1920px;
-    height: 1024px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
     background: linear-gradient(180deg, #F5DB13 0%, #F2B807 100%);
     position: absolute;
     left: 0.07%;
@@ -56,15 +58,12 @@
                 font-weight: 700;
                 font-size: 23px;
                 line-height: 27px;
-                color: #212121;
+                color: $dark;
             }
         }
     }
     .home-banner {
         img {
-            width: 793px;
-            height: 680px;
-            position: absolute;
             width: 793px;
             height: 680px;
             left: 648px;
