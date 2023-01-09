@@ -4,14 +4,19 @@
 
 @font-face {
   font-family: 'Karla';
-  src: url('assets/static/Karla-Bold.ttf');
+  src: url('assets/fonts/Karla/Karla-Regular.ttf');
+  
 }
 @font-face {
-  font-family: 'sansserif';
-  src: url('assets/fonts/sansserif/');
+  font-family: 'Karla-bold';
+  src: url('assets/fonts/Karla/Karla-Bold.ttf');
+}
+@font-face {
+  font-family:'SourceSansPro';
+  src: url('assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf');
 }
 h1 {
-  font-size: 72px; font-family:'@import font-face';
+  font-size: 72px;
 }
 
 h2 {
