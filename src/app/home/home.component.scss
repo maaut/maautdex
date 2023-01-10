@@ -1,24 +1,13 @@
 @import "../../theme";
-.container-home {
+.home-title {
+    height: 1080px;
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
     align-items: center;
     background: linear-gradient(180deg, #F5DB13 0%, #F2B807 100%);
-    position: absolute;
-    left: 0.07%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    z-index: -1;
     .favorite-pokemon {
         width: 516px;
         height: 557px;
-        position: absolute;
-        left: 0.19%;
-        right: 1.74%;
-        top: 0%;
-        bottom: 54.76%;
         padding: 221px 157px;
         h1 {
             font-weight: 400;
@@ -66,8 +55,6 @@
         img {
             width: 793px;
             height: 680px;
-            left: 648px;
-            top: 160px;
         }
     }
 }
