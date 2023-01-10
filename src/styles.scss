@@ -1,44 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
 @import "reset";
 @import "theme";
+@font-face {
+    font-family: 'Karla';
+    src: url('assets/fonts/Karla/Karla-Regular.ttf');
+}
 
 @font-face {
-  font-family: 'Karla';
-  src: url('assets/fonts/Karla/Karla-Regular.ttf');
-  
+    font-family: 'Karla-bold';
+    src: url('assets/fonts/Karla/Karla-Bold.ttf');
 }
+
 @font-face {
-  font-family: 'Karla-bold';
-  src: url('assets/fonts/Karla/Karla-Bold.ttf');
+    font-family: 'SourceSansPro';
+    src: url('assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf');
 }
-@font-face {
-  font-family:'SourceSansPro';
-  src: url('assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf');
-}
+
 h1 {
-  font-size: 72px;
+    font-size: 72px;
 }
 
 h2 {
-  font-size: 64px;
+    font-size: 64px;
 }
 
 h3 {
-  font-size: 36px;
+    font-size: 36px;
 }
 
 h4 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 h5 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 h6 {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 p {
-  font-size: 16px;
+    font-size: 16px;
 }
