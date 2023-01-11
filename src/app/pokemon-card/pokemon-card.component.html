@@ -1,0 +1,10 @@
+<div>
+  <p>{{ pokemonName }}</p>
+  <p>{{ pokemonAtk }}</p>
+  <p>{{ pokemonDefense }}</p>
+
+  <p *ngFor="let type of pokemonTypes">{{ type.type.name }}</p>
+  <img [src]="pokemonImage" alt="" width="200" />
+</div>
+
+<!-- <p>{{ pokemon.name }}</p> -->

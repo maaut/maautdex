@@ -1,0 +1,7 @@
+<div class="container">
+  <ul style="display: flex">
+    <li *ngFor="let pokemon of pokemons" style="margin: 20px">
+      <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
+    </li>
+  </ul>
+</div>
